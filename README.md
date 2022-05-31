@@ -9,9 +9,6 @@ Dengan banyaknya pesaing yang bermunculan, PT ABC harus bertahan dari gempuran p
     
 Namun, tidak semua konsumen di PT ABC memiliki karakteristik dan kebutuhan yang sama. Oleh karena itu, PT ABC ingin menelusuri lebih lanjut karakteristik dan nilai konsumen agar PT ABC tidak salah dalam mengalokasikan sumber daya untuk pemasaran. Salah satu indikator yang ingin dicari adalah Customer Lifetime Value (CLV). Customer Lifetime Value adalah indikator yang menyatakan nilai suatu pelanggan terhadap merk tertentu. Indikator tersebut mampu membantu PT ABC untuk mengenali nilai pelanggannya dengan lebih baik, sehingga PT ABC mampu menyiapkan strategi pemasaran dan penawaran yang lebih baik. Dengan tujuan tersebut, PT ABC ingin melakukan prediksi nilai Customer Lifetime Value.  
   
-### **Conclusion**  
-Berdasarkan hasil evaluasi model, maka pada kasus ini, model yang paling optimal untuk digunakan untuk memprediksi nilai CLV adalah model Random Forest setelah dilakukan hyperparameter tuning.  
-  
 Dari semua variabel yang ada, variabel Number of Policies dan Monthly Premium Auto merupakan variabel yang paling berpengaruh pada nilai CLV.  
   
 ### **Modelling**  
@@ -48,7 +45,10 @@ Walaupun begitu, berdasarkan nilai MAPE yang didapat, yaitu sekitar 11.6%, maka 
 **Features Importance**  
 ![alt text](https://github.com/ChrisAntococt471/Capstone-Project-3---CLV-Prediction/blob/main/Features%20Importance.png)  
 Pada grafis feature importance, terlihat variabel Number of Policies dan Monthly Premium Auto merupakan dua variabel yang paling berpengaruh terhadap nilai CLV. Variabel Total Claim Amount dan Income juga memiliki sedikit pengaruh terhadap nilai CLV.  
-Hal yang menarik dari grafis feature importance ini adalah demografi pelanggan dan juga kendaraan yang diasuransikan tidak berpengaruh terhadap nilai CLV.
+Hal yang menarik dari grafis feature importance ini adalah demografi pelanggan dan juga kendaraan yang diasuransikan tidak berpengaruh terhadap nilai CLV.  
+  
+### **Conclusion**  
+Berdasarkan hasil evaluasi model, maka pada kasus ini, model yang paling optimal untuk digunakan untuk memprediksi nilai CLV adalah model Random Forest setelah dilakukan hyperparameter tuning.  
   
 ### **Recommendation**  
 Beberapa rekomendasi yang dapat diberikan untuk PT ABC adalah:  
