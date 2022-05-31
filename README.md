@@ -15,3 +15,4 @@ Berdasarkan hasil evaluasi model, maka pada kasus ini, model yang paling optimal
 Dari semua variabel yang ada, variabel Number of Policies dan Monthly Premium Auto merupakan variabel yang paling berpengaruh pada nilai CLV.  
   
 ### **Modelling**  
+![alt text](https://github.com/ChrisAntococt471/Capstone-Project-3---CLV-Prediction/blob/main/Model%20Eval.png)
