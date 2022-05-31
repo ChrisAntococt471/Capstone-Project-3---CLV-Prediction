@@ -36,7 +36,8 @@ Terdapat perbedaan performa model Random Forest sebelum tuning dan setelah tunin
   
 Dengan pertimbangan adanya peningkatan nilai R-Squared, yang berarti performa model dalam menjelaskan keadaan data lebih baik disertai penurunan nilai RMSE disertai kenaikan nilai MAPE yang cenderung kecil, maka akan dipilih model Random Forest yang sudah dilakukan hyperparameter tuning.  
   
-**Actual vs Prediction** 
+**Actual vs Prediction**   
+  
 ![alt text](https://github.com/ChrisAntococt471/Capstone-Project-3---CLV-Prediction/blob/main/Actual%20vs%20Pred.png)  
 Model terlihat dapat memprediksi dengan baik pada angka CLV yang rendah walaupun ada kecenderungan terjadinya overestimate (angka berada di atas garis diagonal). Namun seiring meningkatnya angka CLV, pola angka mulai acak (terjadinya overestimation dan underestimation).  
   
@@ -49,3 +50,16 @@ Walaupun begitu, berdasarkan nilai MAPE yang didapat, yaitu sekitar 11.6%, maka 
 Pada grafis feature importance, terlihat variabel Number of Policies dan Monthly Premium Auto merupakan dua variabel yang paling berpengaruh terhadap nilai CLV. Variabel Total Claim Amount dan Income juga memiliki sedikit pengaruh terhadap nilai CLV.  
 Hal yang menarik dari grafis feature importance ini adalah demografi pelanggan dan juga kendaraan yang diasuransikan tidak berpengaruh terhadap nilai CLV.
   
+### **Recommendation**  
+Beberapa rekomendasi yang dapat diberikan untuk PT ABC adalah:  
+- Dalam strategi pemasarannya, sebaiknya PT ABC aktif mempromosikan paket- paket polis asuransi yang atraktif bagi konsumen, mengingat variabel Number of Policies merupakan variabel yang paling berpengaruh terhadap nilai CLV. Dengan menawarkan paket- paket polis asuransi yang optimal, PT ABC memiliki potensial untuk meraih konsumen- konsumen yang bernilai. PT ABC bisa menawarkan berbagai macam benefit bila diperlukan.  
+- Karena nilai Monthly Premium Auto atau premi bulanan cukup penting, maka sebaiknya PT ABC menawarkan premi bulanan yang kompetitif dengan kontrak yang jelas.  
+- Total claim amount juga menjadi komponen penting pada nilai CLV. PT ABC dapat memastikan pelanggan bahwa track record perusahaan dalam membayar klaim sangat baik.  
+- Perusahaan dapat melakukan strategi pemasaran produk pada pelanggan berdasarkan tingkat penghasilannya, mengingat variabel income cukup berpengaruh pada nilai CLV.  
+- PT ABC dapat meningkatkan kualitas database pelanggan, dengan menambahkan kolom Customer's ID. Hal ini diperlukan agar dapat mengantisipasi kesalahan input dan juga mampu membuat personalisasi pelanggan menjadi lebih baik  
+
+Beberapa rekomendasi untuk analisis lebih lanjut adalah:  
+- Perlu dilakukan penambahan database pelanggan untuk kedepannya, dikarenakan nilai R-Squared yang cenderung rendah.  
+- Mengingat variabel Number of Policies sangat berpengaruh terhadap CLV, ada baiknya dilakukan analisis lanjutan yang menggolongkan produk polis asuransi yang paling memberikan keuntungan bagi perusahaan. Hal tersebut dibutuhkan agar perusahaan dapat membuat paket asuransi yang tepat bagi pelanggan.  
+- Dikarenakan variabel Monthly Premium Auto cukup penting, dibutuhkan analisis lanjutan kepada pelanggan agar PT ABC bisa lebih selektif dalam memilih pelanggan agar tidak terjadi penunggakan premi.  
+- Merujuk pada Fang et al (2016), ada baiknya menambahkan beberapa variabel tambahan pada dataset, seperti jenis pembayaran asuransi (bulanan, tahunan, dsb), dan juga asal pelanggan bila ada.
