@@ -8,9 +8,7 @@ Dengan banyaknya pesaing yang bermunculan, PT ABC harus bertahan dari gempuran p
 
     
 Namun, tidak semua konsumen di PT ABC memiliki karakteristik dan kebutuhan yang sama. Oleh karena itu, PT ABC ingin menelusuri lebih lanjut karakteristik dan nilai konsumen agar PT ABC tidak salah dalam mengalokasikan sumber daya untuk pemasaran. Salah satu indikator yang ingin dicari adalah Customer Lifetime Value (CLV). Customer Lifetime Value adalah indikator yang menyatakan nilai suatu pelanggan terhadap merk tertentu. Indikator tersebut mampu membantu PT ABC untuk mengenali nilai pelanggannya dengan lebih baik, sehingga PT ABC mampu menyiapkan strategi pemasaran dan penawaran yang lebih baik. Dengan tujuan tersebut, PT ABC ingin melakukan prediksi nilai Customer Lifetime Value.  
-  
-Dari semua variabel yang ada, variabel Number of Policies dan Monthly Premium Auto merupakan variabel yang paling berpengaruh pada nilai CLV.  
-  
+    
 ### **Modelling**  
 ![alt text](https://github.com/ChrisAntococt471/Capstone-Project-3---CLV-Prediction/blob/main/Model%20Eval.png)  
 Berdasarkan hasil metrik di atas, terdapat 3 model yang memiliki nilai error yang paling kecil, yaitu Decision Tree, Random Forest, dan XGBoost.  
@@ -49,6 +47,8 @@ Hal yang menarik dari grafis feature importance ini adalah demografi pelanggan d
   
 ### **Conclusion**  
 Berdasarkan hasil evaluasi model, maka pada kasus ini, model yang paling optimal untuk digunakan untuk memprediksi nilai CLV adalah model Random Forest setelah dilakukan hyperparameter tuning.  
+Dari semua variabel yang ada, variabel Number of Policies dan Monthly Premium Auto merupakan variabel yang paling berpengaruh pada nilai CLV.  
+
   
 ### **Recommendation**  
 Beberapa rekomendasi yang dapat diberikan untuk PT ABC adalah:  
